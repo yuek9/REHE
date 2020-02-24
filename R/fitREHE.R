@@ -1,3 +1,6 @@
+## Kun Yue, yuek@uw.edu
+## 02/24/2020
+
 ## main function for estimating linear mixed models via REHE
 ## Code is adapted from R package GENESIS (v2.14.3)
 
