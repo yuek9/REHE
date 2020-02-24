@@ -1,3 +1,7 @@
+## Kun Yue, yuek@uw.edu
+## 02/24/2020
+
+
 ##### a collection of functions to be used in simulation
 library(quadprog)
 
