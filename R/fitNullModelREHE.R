@@ -8,7 +8,7 @@
 ##      Code built based on R package GENESIS (v2.14.3) 
 ##      Reference: Gogarten, S.M., Sofer, T., Chen, H., Yu, C., Brody, J.A., Thornton, T.A., Rice, K.M., and Conomos, M.P. (2019). Genetic association testing using the GENESIS R/Bioconductor package. Bioinformatics. doi:10.1093/bioinformatics/btz567.
 ## 
-##      Author:           Kun Yue
+##      Author:           Kun Yue, yuek@uw.edu
 ##      Date modified:    02/21/2020
 #############################################
 
