@@ -1,8 +1,11 @@
-REHE_CI = function(n, 
-                   K,              # provide sparse Kin_sparse if do not provide cholesky decomposition; or can provide dense K with cholSigma. 
-                   vc_rehe_full,   # vc_rehe_full should be in order of c(residual, K[[1]], K[[2]]...)
-                   In, 
-                   cholSigma=NULL,
+## function to compute confidence interval for variance components with REHE, based on parametric bootstrap. 
+## both Wald type and quantile type confidence intervals are computed. 
+
+REHE_CI = function(n,              # sample size
+                   K,              # list of correlation matrices
+                   vc_rehe_full,   # variance component estimates, should be in order of c(residual, K[[1]], K[[2]]...)
+                   In,             # size n diagonal matrix
+                   cholSigma=NULL, # cholesky decomposition of the covariance matrix of Y, as R (based on estimated variance components). R'R = Sigma.
                    n_boots = 100   # by default use 100 bootstrap samples
 ){ 
   

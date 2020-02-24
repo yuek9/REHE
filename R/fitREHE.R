@@ -8,10 +8,10 @@
 
 fitREHE = function(y, X, K, group.idx=NULL, computeCI = F, VConly = F){ 
   
-  # y is the response, X is the fixed covariate design matrix, K is the list of correlation matrices
+  # y is the response vector, X is the fixed covariate design matrix (the first column being 1), K is the list of correlation matrices
   
-  # need to regress out the fixed effects before computing variance components
-  if (is.null(group.idx)) group.idx <- list(resid.var = 1:length(y))
+  
+  if (is.null(group.idx)){group.idx <- list(resid.var = 1:length(y))}else{stop("Heterogeneous residual variance feature is not developed.")}
   
   XTXXT = solve(t(X)%*%X, t(X))
   beta = XTXXT%*%y
