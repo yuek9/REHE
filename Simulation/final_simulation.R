@@ -1,3 +1,6 @@
+## Kun Yue, yuek@uw.edu
+## 02/24/2020
+
 ##### this is the final simulation code for heritability study
 
 filepath = '...'
