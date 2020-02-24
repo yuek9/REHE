@@ -1,3 +1,6 @@
+## Kun Yue, yuek@uw.edu
+## 02/24/2020
+
 # file for data application 
 
 filepath = '...'
