@@ -1,3 +1,6 @@
+## Kun Yue, yuek@uw.edu
+## 02/24/2020
+
 ## function to compute confidence interval for variance components with REHE, based on parametric bootstrap. 
 ## both Wald type and quantile type confidence intervals are computed. 
 
