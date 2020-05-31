@@ -1,0 +1,27 @@
+# under dirichelt: higher library_scale, higher z_scale, higher p, higher sparsity (current level around 0.5)
+# under logistic normal: higher theta, higher sparsity (at 8, around 0.5; at 4, around 0.2)
+n	p	library_scale	theta	option	z_scale
+300	200	5	8	dirichlet	15
+300	200	5	8	dirichlet	10
+300	200	5	8	dirichlet	25
+500	200	5	8	dirichlet	15
+500	200	5	8	dirichlet	10
+500	200	5	8	dirichlet	25
+500	300	5	8	dirichlet	15
+500	300	5	8	dirichlet	10
+500	300	5	8	dirichlet	25
+300	200	5	4	logisticnormal	15
+300	200	5	8	logisticnormal	15
+300	200	5	8	dirichlet	15
+300	200	5	8	dirichlet	10
+300	200	5	8	dirichlet	25
+300	300	5	4	logisticnormal	15
+300	300	5	8	logisticnormal	15
+300	300	5	8	dirichlet	15
+300	300	5	8	dirichlet	10
+300	300	5	8	dirichlet	25
+300	350	5	4	logisticnormal	15
+300	350	5	8	logisticnormal	15
+300	350	5	8	dirichlet	15
+300	350	5	8	dirichlet	10
+300	350	5	8	dirichlet	25
