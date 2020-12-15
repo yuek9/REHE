@@ -1,1 +1,3 @@
-Codes for performing data analysis for heritability study and genome-wide association testing
+GWAS_analysis: Codes for heritability analysis and genome-wide association analysis
+
+NetGSA_analysis: Codes for performing network-based pathway enrichment analysis
