@@ -1,3 +1,3 @@
-Plots in the manuscript and supplementary material.
+Plots in the manuscript and supplementary material. 
 
-R script for generating the plots is included (summary_file_for_plots.R). Simulation results and data application results R images are needed to run the script. 
+Some plot objects are small and are provided for easy reproduction of the plots. Other data files are too large to share and are not provided.

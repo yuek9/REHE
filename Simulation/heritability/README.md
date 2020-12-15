@@ -1,0 +1,1 @@
+Code to reproduce simulation results on heritability. The codes are not optmized in format. Seperate files generate results for different settings that are summarized in code file for plots.
